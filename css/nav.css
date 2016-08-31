@@ -1,0 +1,59 @@
+body {
+    clear: both;
+    margin: 0;
+}
+
+
+ul .btn {
+    display: none;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0;
+    line-height: 3.2em;
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+.nav ul li a:active {
+  border-bottom: 3px solid #fff;
+}
+
+@media (max-width: 30em) {
+    body {
+    clear: both;
+}
+    .nav ul li {
+        float: right;
+    }
+    ul .btn {
+        display: block;
+        padding: .7em 3em 0 6em;
+        color: #fff;
+        font-size: 1em;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    ul .menu li a {
+        padding: 0;
+        width: 100%;
+    }
+    ul .menu {
+        display: none;
+    }
+    ul li:hover .menu {
+        display: block;
+    }
+    nav ul li a:active {
+    border-bottom: 0;
+    }
+    
+}

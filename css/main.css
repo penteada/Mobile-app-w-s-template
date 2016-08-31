@@ -1,0 +1,178 @@
+body {
+	font-family: 'Istok Web', sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;	
+}
+header	 {
+	background-color: #44b76f;
+	color: #fff;
+	padding-bottom: 6em;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.menu li a {
+	list-style-type: none;
+	text-transform: none;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo {
+	margin: 0;
+}
+.top {
+	margin: 50px 0 0 0;
+}
+header h1 {
+	font-size: 2.3em;
+}
+
+.text-left {
+	font-size: 1.3em;
+	margin-bottom: 4em;
+}
+
+button {
+	background-color: #44b76f;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 5px 30px 5px 30px;
+}
+
+button p {
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 1em;
+}
+
+button:hover {
+	background-color: #fff;
+	color: #44b76f;
+}
+
+nav p {     
+font-size: 1.6em;     
+font-weight: 700;     
+font-style: italic;
+padding-right: 10px; 
+text-align: left;
+line-height: 1.6em;
+align: top;
+}
+.menu li {       
+	list-style-type: none;     
+	padding-right: 4em;     
+	font-size: 1em;
+	text-align: center;
+	display: inline-flex;      
+	} 
+
+.top {
+	text-align: left;
+}
+
+h2 {
+	color: #44b76f;
+	font-size: 2em;
+	text-align: left;
+}
+
+.sec_one {
+	padding: 3em 0 3em 0;
+}
+.sec_one p {
+	color: #cdcdcd;
+	font-size: 1.2em;
+}
+.sec_one p .img {
+	text-align: right;
+}
+.sec_one p:hover {
+	color: #000;
+	font-size: 1.3em;
+}
+
+.sec_two {
+	background-color: #f6f6f6;
+	padding: 3em 0 3em 0;
+}
+
+.sec_two p {
+	color: #cdcdcd;
+	font-size: 1.2em;
+}
+.sec_two p:hover {
+	color: #000;
+	font-size: 1.3em;
+}
+
+.footer {
+	display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: inline-flex;
+    align-items: center;
+    margin: 1em 0 1em 0;
+}
+
+.footer li {
+	list-style-type: none;    
+	padding-right: 15px;     	
+	display: inline-flex;
+}
+.footer p {
+	text-align: center;
+	color: #000;
+	font-size: 1.2em;
+}
+.footer a {
+	text-transform: uppercase;
+	color: #000;
+}
+.footer a:hover {
+	color: #000;
+	font-weight: 700;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media (max-width: 30em) {
+
+	button {
+        padding: 0 10px 0 10px;
+    } 
+    button p {
+        font-size: .7em;
+    }
+    header h1 {
+		font-size: 1.5em;
+    }
+    h2 {
+		font-size: 1.3em;
+    }
+    .sec_one p {
+	font-size: .9em;
+	}
+	.sec_one p:hover {
+	font-size: 1em;
+	}
+	.sec_two p {
+	font-size: .9em;
+	}
+	.sec_two p:hover {
+	font-size: 1em;
+	}
+	.text-left {
+	font-size: .9em;
+	}
+	.footer p {
+	font-size: .9em
+	}
+}
